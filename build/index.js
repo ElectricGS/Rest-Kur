@@ -13,7 +13,7 @@ let ontopoReq = {
         time: config_1.config.ontopo.time,
     }
 };
-(0, node_cron_1.schedule)('* * * * *', () => {
+(0, node_cron_1.schedule)('*/15 * * * *', () => {
     console.log("New search started.");
     (0, ontopo_1.checkOntopoAvilabilty)(ontopoReq, config_1.config.ontopo.flexible).then(availability => {
         if (availability) {
