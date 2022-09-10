@@ -17,7 +17,7 @@ The project runs as a Node.js application using cron to schedule the searches to
     just navigate to your preferred restaurant and you will find it in the URL for example,
     the URL of Taizu restaurant is https://ontopo.co.il/36960535/ and the slug is 36960535
 2. Edit the config.ts file which is located in /src/config/config.ts, and add your slug, your preferences, and email client details 
-    that will send you the notification when a spot becomes available. 
+    that will send you the notification when a spot becomes available. <br/>
     **Note:** if you are using an email service other than Mailtrap you might also need to re-configure the email reporter
     which is located in /src/mailer/mailer.ts
 3. Run npm start
