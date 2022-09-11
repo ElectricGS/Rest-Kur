@@ -7,9 +7,9 @@ export const config = {
         flexible: false,
     },
     mail:{
-        emailAddressTo:["goni276@gmail.com"],
-        emailUser:"67fc0730b5ad54",
-        emailPassword:"0e992fb9131c44",
+        emailAddressTo:["email@example.com"],
+        emailUser:"username",
+        emailPassword:"password",
     },
     tabit:{
         //TODO :)
